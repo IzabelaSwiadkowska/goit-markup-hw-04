@@ -402,3 +402,12 @@ ul {
 .footnote-2:not(:last-child) {
   padding-bottom: 9px;
 }
+.mail-header {
+  width: 161px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.icon-env {
+  align-items: center;
+}
