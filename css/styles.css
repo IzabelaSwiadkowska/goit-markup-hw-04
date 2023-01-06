@@ -87,7 +87,7 @@ body {
       rgba(47, 48, 58, 0.4) 0%,
       rgba(47, 48, 58, 0.4) 100%
     ),
-    url("/images/header/Img-header.jpg");
+    url("../images/header/Img-header.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
