@@ -137,9 +137,6 @@ body {
   margin: 0;
 }
 .aboutus {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
   width: 352px;
   margin-bottom: 50px;
   margin-top: 0;
@@ -149,9 +146,6 @@ body {
 }
 
 .ourteam-headline {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
   width: 209px;
   margin-bottom: 50px;
 }
@@ -454,4 +448,43 @@ ul {
   width: 206px;
   gap: 10px;
   margin-bottom: 18px;
+}
+.our-clients {
+  width: 1170px;
+  background-color: var(--first-background-color);
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+.examples {
+  display: flex;
+  gap: 30px;
+  margin: 0;
+}
+.examples .examples-items:hover,
+.examples .examples-items:focus {
+  fill: var(--logo-web-color);
+}
+.examples-items {
+  width: 170px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  padding: 16px 32px 16px 32px;
+}
+.ourclients-headline {
+  margin-top: 0;
+  margin-bottom: 50px;
 }
