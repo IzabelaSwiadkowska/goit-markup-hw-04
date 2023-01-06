@@ -65,8 +65,12 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
-  margin-top: 32px;
   width: 110px;
+}
+
+.link-contact2:hover,
+.link-contact2:focus {
+  color: var(--logo-web-color);
 }
 
 .link-contact:hover,
@@ -78,6 +82,18 @@ body {
 }
 .main-page {
   background-color: var(--second-background-color);
+  background-image: linear-gradient(
+      0deg,
+      rgba(47, 48, 58, 0.4) 0%,
+      rgba(47, 48, 58, 0.4) 100%
+    ),
+    url("/images/header/Img-header.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  max-width: 1600px;
+  margin: 0 auto;
 }
 .main-heading {
   color: var(--secondary-color);
@@ -108,6 +124,8 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .advantages {
@@ -116,6 +134,7 @@ body {
   flex-direction: column;
   font-size: 14px;
   line-height: 1.71;
+  margin: 0;
 }
 .aboutus {
   font-weight: 700;
@@ -148,7 +167,7 @@ body {
   font-size: 16px;
   line-height: 1.17;
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 
 .contact-information {
@@ -360,7 +379,8 @@ ul {
 
 .main-contact {
   display: flex;
-  gap: 50px;
+  gap: 30px;
+  align-items: center;
 }
 .general {
   display: flex;
@@ -405,9 +425,33 @@ ul {
 .mail-header {
   width: 161px;
   display: flex;
-  justify-content: space-between;
-  gap: 10px;
-}
-.icon-env {
   align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.mail-header:hover {
+  fill: var(--logo-web-color);
+}
+.phone-header {
+  width: 130px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.phone-header:hover {
+  fill: var(--logo-web-color);
+}
+
+.feature {
+  display: flex;
+  justify-content: center;
+  background-color: var(--third-background-color);
+  border-radius: 4px;
+}
+.socials {
+  display: flex;
+  width: 206px;
+  gap: 10px;
+  margin-bottom: 18px;
 }
